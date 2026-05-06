@@ -596,10 +596,12 @@ section, .hero-section {
 
 .video-player {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
   display: block;
   border-radius: 1rem;
+  border: none;
 }
+
 
 .video-text h3 {
   font-family: "Playfair Display", serif;
