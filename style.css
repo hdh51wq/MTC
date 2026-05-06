@@ -263,20 +263,26 @@ section, .hero-section {
 }
 
 .logo-french {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 800;
   color: #ef6138;
   white-space: nowrap;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .logo-arabic {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
   color: #ef6138;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: "Amiri", serif, system-ui;
   direction: rtl;
-  margin-top: 0.1rem;
+  margin-top: -0.2rem;
+  display: block;
+  text-align: justify;
+  text-align-last: justify; /* Ensures it fills the width */
 }
+
 
 /* Navigation Links */
 .nav-links {
@@ -799,20 +805,23 @@ section, .hero-section {
 }
 
 .footer-logo-text .logo-french {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 800;
   color: #ffa500;
   white-space: nowrap;
+  letter-spacing: 0.02em;
 }
 
 .footer-logo-text .logo-arabic {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
   color: #ffa500;
-  font-family: system-ui, -apple-system, sans-serif;
   direction: rtl;
-  margin-top: 0.1rem;
+  margin-top: -0.2rem;
+  text-align: justify;
+  text-align-last: justify;
 }
+
 
 .footer-text {
   font-family: "Cormorant Garamond", serif;
